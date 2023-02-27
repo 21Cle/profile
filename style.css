@@ -8,8 +8,17 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1 {
   color:#804674;
+  font-family:'Open Sans', sans-serif ;
+  font-size: 40px ;
+  line-height: 1.6 ;
+}
+h1, h2, h3 {
+  margin-top: 0;
+}
+h2, h3 {
+  color:#F16767;
   font-family:'Open Sans', sans-serif ;
   font-size: 30px ;
   line-height: 1.6 ;
@@ -39,24 +48,25 @@ a:hover{
 .container {
   width: 500px;
   margin: 40px, auto;
+
 }
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 10px 20px;
   list-style: none;
   padding-left: 0px;
 }
 
 img {
-  width : 100px;
-  height: 100px;
+  width : 200px;
+  height: 200px;
   object-fit : cover;
   border-radius: 50%;
 }
 
 .btn-purple {
-  background-color: blueviolet;
+  background-color: #B05A7A;
   color: aliceblue;
   padding: 10px;
   border-radius: 6px;
@@ -65,6 +75,18 @@ img {
 .btn-purple:hover {
   transition: 0.3s ease;
   background-color: red;
+}
+
+.link-color {
+  background-color: #FFF2F2;
+  color: #B05A7A;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.link-color:hover {
+  background-color: #B05A7A;
+  transition: 0.3s ease;
 }
 
 @media (max-width: 960px) {
